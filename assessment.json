@@ -1,0 +1,55 @@
+{
+  "game": "aurora-rail",
+  "version": "2026.10.31.1",
+  "source": {
+    "title": "교육부 고시 제2022-33호 [별책8] 수학과 교육과정",
+    "sha256": "a11706f7c7a8e0aa650a4d08549895ff10f7920b1bee7b2c2f4ce79ad3795ac8",
+    "assessmentPages": [
+      53,
+      54,
+      55
+    ]
+  },
+  "standards": [
+    {
+      "code": "9수02-07",
+      "text": "정비례, 반비례 관계를 이해하고, 그 관계를 표, 식, 그래프로 나타낼 수 있다.",
+      "page": 41,
+      "printedPage": 35,
+      "skills": {
+        "meaning": "속력·거리 및 일정한 양 나누기에서 비례 관계 설명",
+        "table": "새 수치와 음수를 포함하는 대응 표 완성",
+        "equation": "표에서 관계의 모양과 비례상수 구성",
+        "graph": "새 식의 점을 입력하고 직선·두 곡선 형태 구성"
+      },
+      "rubric": "일정한 비율 또는 곱을 근거로 설명 / x=0의 가능 여부 / 표의 값과 식·점의 일치 / 직선과 두 갈래 곡선 및 사분면을 설명. 학생 설명과 피드백을 함께 검토.",
+      "limit": "네 평가 요소별 두 표본 과제. 열린 실생활 사례 생성, 자유로운 전체 그래프 작도와 모든 계수 범위는 미확인. 게임 승리·배지는 공식 이수 판정이 아님."
+    }
+  ],
+  "interpretation": {
+    "pages": [
+      42,
+      43
+    ],
+    "printedPages": [
+      36,
+      37
+    ],
+    "review": "9수02-07 해설의 속력·거리, 속력·시간 등 실생활 사례와 관계 설명을 대조. 적용 시 고려 사항의 일상 언어·표·그래프·식 상호 변환을 반영하며 복잡한 활용 문제는 피함."
+  },
+  "independence": {
+    "requiredDistinctFirstNoHelp": 2,
+    "retriesIndependent": false,
+    "gameWinEvidence": false
+  },
+  "records": {
+    "firstResponse": true,
+    "incorrect": true,
+    "retry": true,
+    "help": true,
+    "explanation": true,
+    "review": true,
+    "export": "Readable HTML plus print, no raw JSON",
+    "anonymousProfiles": true
+  }
+}

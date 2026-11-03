@@ -1,0 +1,37 @@
+{
+  "tool": "image_gen.imagegen",
+  "generatedOn": "2026-10-31",
+  "calls": 5,
+  "assets": [
+    {
+      "file": "assets/background.png",
+      "role": "background",
+      "transparent_background": false,
+      "prompt": "Use case: stylized-concept. Original Korean middle-school puzzle game Aurora Rail. Wide 1536x1024 hand-painted fantasy railway observatory under turquoise aurora and violet night sky, warm brass station platforms around edges, quiet dark navy central space for coordinate game board. Elegant storybook game art, glowing rails at edges, no text, no UI, no people."
+    },
+    {
+      "file": "assets/button.png",
+      "role": "button",
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. A single wide horizontal fantasy railway ticket button, front-facing, isolated transparent background. Antique brass scalloped border, subtle tiny teal crystal corners, broad pale ivory blank center occupying 80 percent of panel, refined hand-painted mobile boardgame asset, no text, no numbers, no shadow outside silhouette. Wide 3:1 proportion."
+    },
+    {
+      "file": "assets/train.png",
+      "role": "train",
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Original adorable small fantasy steam locomotive, three-quarter front side view, brass and deep indigo body with turquoise crystal lamp and softly glowing wheels, expressive warm lamp eyes, no driver. Polished hand-painted storybook game mascot and player token, isolated on transparent background, no text or logo."
+    },
+    {
+      "file": "assets/medal.png",
+      "role": "medal",
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Single circular railway expedition collectible badge, antique brass rim and tiny wing ornaments, deep indigo blank enamel center for code-drawn round number, turquoise gem at bottom. Front view, symmetrical, elegant hand-painted game asset. Transparent background, no text, no number, no letters."
+    },
+    {
+      "file": "assets/star.png",
+      "role": "star",
+      "transparent_background": true,
+      "prompt": "Use case: stylized-concept. Single collectible glowing five-point aurora crystal star mounted in tiny brass compass mount, teal and warm gold facets, readable small game reward pickup. Front-facing isolated transparent background, polished hand painted fantasy board game art, no text, no letters."
+    }
+  ]
+}

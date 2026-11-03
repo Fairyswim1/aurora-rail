@@ -1,0 +1,47 @@
+{
+  "id": "aurora-rail",
+  "title": "오로라 레일",
+  "subtitle": "비율을 잇는 여행",
+  "grade": 1,
+  "unit": "4-3 정비례 · 4-4 반비례",
+  "category": "좌표와 그래프",
+  "version": "1.0.0",
+  "description": "정비례·반비례 승차권을 골라 별이 있는 역을 방문하세요. 환승할 역과 남길 승차권을 생각하며 열두 여행을 완주하는 경로 퍼즐입니다.",
+  "tags": [
+    "정비례와 반비례",
+    "경로 계획",
+    "승차권 전략"
+  ],
+  "duration": "25–40분",
+  "assets": [
+    "assets/background.png",
+    "assets/button.png",
+    "assets/train.png",
+    "assets/medal.png",
+    "assets/star.png"
+  ],
+  "generatedRoles": {
+    "background": "assets/background.png",
+    "controls": "assets/button.png",
+    "character": "assets/train.png",
+    "interactiveProp": "assets/train.png",
+    "roundNavigation": "assets/medal.png",
+    "reward": "assets/star.png"
+  },
+  "obstacles": "제한된 두 종류의 승차권과 환승 연결이 장애물 역할. 별도 적 캐릭터 없음.",
+  "campaign": {
+    "rounds": 12,
+    "collectibles": 12,
+    "ending": true
+  },
+  "tutorial": {
+    "firstVisit": true,
+    "spotlight": true,
+    "actualSuccess": true,
+    "skippable": true,
+    "replay": true,
+    "isolated": true
+  },
+  "repository": "https://github.com/Fairyswim1/aurora-rail",
+  "repositoryStatus": "created"
+}

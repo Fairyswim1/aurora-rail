@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-03T01:20:58.599Z",
+  "sourceHash": "80e0f0810b1e28e74d058ac2b02c2f61533d274da746b177c234573ba72f61a6",
+  "browser": "Chrome via CUA; local 127.0.0.1:51245",
+  "screenshots": [
+    "evidence/mobile-game.png",
+    "evidence/desktop-notes.png"
+  ],
+  "campaign": {
+    "rounds": 12,
+    "allWon": true,
+    "method": "Clicked ticket and station buttons for each solution. First batch completed rounds 1–6 before tool timeout; observed six earned badges. Rounds 7–12 each returned visible next button; completion dialog confirmed all twelve.",
+    "ending": true,
+    "persistence": true,
+    "undo": true,
+    "failure": "Round 5 route A-E-D-E-A-E uses all tickets with stars missing. Hint reports no solution; undo restores inverse ticket.",
+    "resourceTradeoff": "26 tests include independent BFS and near-star greedy failure for rounds 5–12."
+  },
+  "tutorial": {
+    "firstVisit": true,
+    "keyboard": true,
+    "actualPracticeWin": true,
+    "replay": true,
+    "skip": true,
+    "isolated": true,
+    "evidence": "Practice reached C with one star and zero campaign badges; later replay/skip preserved 12/12."
+  },
+  "assessment": {
+    "codes": [
+      "9수02-07"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "mobile": true,
+    "export": true,
+    "profiles": true,
+    "feedback": true,
+    "details": "All eight tasks submitted through UI. u1 first wrong then hint/retry correct remains excluded; report 1/2,2/2,2/2,2/2. New anonymous note starts at zeros; switching back restores results. Feedback persisted after reload.",
+    "exportEvidence": "Actual downloaded HTML contains readable answers, retries, help use, explanations, feedback; copied to evidence/export-sample.html. Browser download event timed out but file was written and inspected.",
+    "mobileEvidence": {
+      "cssWidth": 390,
+      "clientWidth": 374,
+      "scrollWidth": 374,
+      "overflowingControls": [],
+      "fonts": "loaded",
+      "graph": "Negative inverse curve and entered points verified in desktop screenshot; mobile task interactions and DOM layout verified."
+    }
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "fonts": [
+      "Jua",
+      "Do Hyeon",
+      "Gowun Dodum"
+    ],
+    "notes": "Game mobile image visually inspected: title, generated buttons, station labels and plot within bounds; desktop notes visually inspected. CSS width 390 confirmed in DOM despite 90% Chrome zoom."
+  },
+  "audio": {
+    "signal": "verified",
+    "speakerAudition": false
+  },
+  "console": {
+    "gameErrors": [],
+    "assessmentErrors": []
+  },
+  "limitations": [
+    "No student playtesting; fun and learning effectiveness remain hypotheses.",
+    "Chrome active-tab screenshot calls intermittently time out. Saved successful game mobile and notes desktop captures; did not claim missing captures.",
+    "Game contains only positive first-quadrant stations; negative values and x=0 restrictions are checked in separate tasks."
+  ]
+}

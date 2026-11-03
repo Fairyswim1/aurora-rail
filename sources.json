@@ -1,0 +1,60 @@
+{
+  "references": [
+    {
+      "filename": "미래엔_중학교수학1_교과서_4-3_정비례.pdf",
+      "sha256": "ea0d8772f528c406a23f88c21d16abeaa3ce149009677924b546b86c7730634d",
+      "pdfPages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "printedPages": [
+        122,
+        123,
+        124,
+        125,
+        126
+      ]
+    },
+    {
+      "filename": "미래엔_중학교수학1_교과서_4-4_반비례.pdf",
+      "sha256": "0d31e3bd0a62cff80eb6b186220e6a316e3a4ee553e6a97aa5c78253042e8508",
+      "pdfPages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "printedPages": [
+        128,
+        129,
+        130,
+        131
+      ]
+    }
+  ],
+  "visualReview": true,
+  "reviewedAt": "2026-10-31",
+  "visualPages": [
+    "정비례 PDF4/인쇄125: 원점을 지나는 직선 및 부호별 사분면",
+    "반비례 PDF1/인쇄128: xy 일정과 y=a/x",
+    "반비례 PDF4/인쇄131: 축에 닿지 않는 두 곡선"
+  ],
+  "definitions": [
+    "정비례는 y=ax(a≠0), y/x 일정",
+    "반비례는 y=a/x(a≠0,x≠0), xy 일정"
+  ],
+  "misconceptions": [
+    "감소하면 모두 반비례라는 오해",
+    "x=0을 반비례에 대입",
+    "증가하는 곡선이면 정비례라는 오해",
+    "가까운 위치만 보고 비율·곱을 확인하지 않는 행동"
+  ],
+  "prerequisites": [
+    "순서쌍과 좌표",
+    "유리수의 사칙계산"
+  ],
+  "originalFilesIncluded": false
+}

@@ -1,0 +1,140 @@
+TAP version 13
+# Subtest: Independent u1
+ok 1 - Independent u1
+  ---
+  duration_ms: 2.0746
+  ...
+# Subtest: Independent u2
+ok 2 - Independent u2
+  ---
+  duration_ms: 0.1217
+  ...
+# Subtest: Independent t1
+ok 3 - Independent t1
+  ---
+  duration_ms: 0.2943
+  ...
+# Subtest: Independent t2
+ok 4 - Independent t2
+  ---
+  duration_ms: 0.136
+  ...
+# Subtest: Independent e1
+ok 5 - Independent e1
+  ---
+  duration_ms: 0.1725
+  ...
+# Subtest: Independent e2
+ok 6 - Independent e2
+  ---
+  duration_ms: 0.0924
+  ...
+# Subtest: Independent g1
+ok 7 - Independent g1
+  ---
+  duration_ms: 0.1831
+  ...
+# Subtest: Independent g2
+ok 8 - Independent g2
+  ---
+  duration_ms: 0.0869
+  ...
+# Subtest: Wrong first, retry, and help cannot become independent
+ok 9 - Wrong first, retry, and help cannot become independent
+  ---
+  duration_ms: 2.2219
+  ...
+# Subtest: Unique first response only; rational input equivalence
+ok 10 - Unique first response only; rational input equivalence
+  ---
+  duration_ms: 0.9195
+  ...
+# Subtest: Round 1 independent graph search and legal winning path
+ok 11 - Round 1 independent graph search and legal winning path
+  ---
+  duration_ms: 2.0462
+  ...
+# Subtest: Round 2 independent graph search and legal winning path
+ok 12 - Round 2 independent graph search and legal winning path
+  ---
+  duration_ms: 0.501
+  ...
+# Subtest: Round 3 independent graph search and legal winning path
+ok 13 - Round 3 independent graph search and legal winning path
+  ---
+  duration_ms: 0.2967
+  ...
+# Subtest: Round 4 independent graph search and legal winning path
+ok 14 - Round 4 independent graph search and legal winning path
+  ---
+  duration_ms: 0.9844
+  ...
+# Subtest: Round 5 independent graph search and legal winning path
+ok 15 - Round 5 independent graph search and legal winning path
+  ---
+  duration_ms: 0.4326
+  ...
+# Subtest: Round 6 independent graph search and legal winning path
+ok 16 - Round 6 independent graph search and legal winning path
+  ---
+  duration_ms: 0.6799
+  ...
+# Subtest: Round 7 independent graph search and legal winning path
+ok 17 - Round 7 independent graph search and legal winning path
+  ---
+  duration_ms: 1.766
+  ...
+# Subtest: Round 8 independent graph search and legal winning path
+ok 18 - Round 8 independent graph search and legal winning path
+  ---
+  duration_ms: 4.045
+  ...
+# Subtest: Round 9 independent graph search and legal winning path
+ok 19 - Round 9 independent graph search and legal winning path
+  ---
+  duration_ms: 0.6433
+  ...
+# Subtest: Round 10 independent graph search and legal winning path
+ok 20 - Round 10 independent graph search and legal winning path
+  ---
+  duration_ms: 0.7406
+  ...
+# Subtest: Round 11 independent graph search and legal winning path
+ok 21 - Round 11 independent graph search and legal winning path
+  ---
+  duration_ms: 1.0436
+  ...
+# Subtest: Round 12 independent graph search and legal winning path
+ok 22 - Round 12 independent graph search and legal winning path
+  ---
+  duration_ms: 1.0684
+  ...
+# Subtest: Near-star greedy works early but loses with reserved tickets
+ok 23 - Near-star greedy works early but loses with reserved tickets
+  ---
+  duration_ms: 0.7325
+  ...
+# Subtest: A legal but wrong route can spend the only needed ticket; undo recovers exact resources
+ok 24 - A legal but wrong route can spend the only needed ticket; undo recovers exact resources
+  ---
+  duration_ms: 1.8595
+  ...
+# Subtest: No teleport, no division by zero, no imaginary inverse crossing
+ok 25 - No teleport, no division by zero, no imaginary inverse crossing
+  ---
+  duration_ms: 0.144
+  ...
+# Subtest: Tutorial first success without campaign state
+ok 26 - Tutorial first success without campaign state
+  ---
+  duration_ms: 0.1572
+  ...
+1..26
+# tests 26
+# suites 0
+# pass 26
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 150.9422
