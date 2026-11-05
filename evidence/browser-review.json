@@ -1,11 +1,12 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-03T01:20:58.599Z",
-  "sourceHash": "8005f9e274036b0ecb0b9786ba095d6649d712da7aff417b55558787eabcabb4",
+  "sourceHash": "5713d88aad7bf159c6a92d12ca3d1bcc9bd610ba3b61a9b16f36b32622a41afb",
   "browser": "Chrome via CUA; local 127.0.0.1:51245",
   "screenshots": [
     "evidence/mobile-game.png",
-    "evidence/desktop-notes.png"
+    "evidence/desktop-notes.png",
+    "evidence/header-compact-desktop.png"
   ],
   "campaign": {
     "rounds": 12,
@@ -93,5 +94,23 @@
     "musicMenuInBounds": true,
     "consoleErrors": [],
     "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "previousReviewSourceHash": "8005f9e274036b0ecb0b9786ba095d6649d712da7aff417b55558787eabcabb4",
+  "headerRegression": {
+    "checkedAt": "2026-11-05T05:49:35.581Z",
+    "scope": "style.css header padding and subtitle font only; existing gameplay validation retained",
+    "desktop": {
+      "width": 2072,
+      "height": 125.1,
+      "subtitlePx": 16,
+      "overflow": false
+    },
+    "mobile": {
+      "width": 390,
+      "height": 196.5,
+      "overflow": false,
+      "screenshot": "CDP capture timed out; layout measured from rendered DOM"
+    },
+    "screenshot": "evidence/header-compact-desktop.png"
   }
 }
