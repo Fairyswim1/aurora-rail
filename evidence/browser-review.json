@@ -1,12 +1,14 @@
 {
   "status": "passed",
-  "checkedAt": "2026-11-03T01:20:58.599Z",
-  "sourceHash": "5713d88aad7bf159c6a92d12ca3d1bcc9bd610ba3b61a9b16f36b32622a41afb",
+  "checkedAt": "2026-11-05T06:33:22.188946+00:00",
+  "sourceHash": "0637d1a6c312fdfed3eb6e970027f63d4cbfde6dfd11f4bb10475318487c733b",
   "browser": "Chrome via CUA; local 127.0.0.1:51245",
   "screenshots": [
     "evidence/mobile-game.png",
     "evidence/desktop-notes.png",
-    "evidence/header-compact-desktop.png"
+    "evidence/header-compact-desktop.png",
+    "evidence/aurora-final-desktop.png",
+    "evidence/aurora-final-mobile.png"
   ],
   "campaign": {
     "rounds": 12,
@@ -95,7 +97,7 @@
     "consoleErrors": [],
     "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
   },
-  "previousReviewSourceHash": "8005f9e274036b0ecb0b9786ba095d6649d712da7aff417b55558787eabcabb4",
+  "previousReviewSourceHash": "5713d88aad7bf159c6a92d12ca3d1bcc9bd610ba3b61a9b16f36b32622a41afb",
   "headerRegression": {
     "checkedAt": "2026-11-05T05:49:35.581Z",
     "scope": "style.css header padding and subtitle font only; existing gameplay validation retained",
@@ -112,5 +114,20 @@
       "screenshot": "CDP capture timed out; layout measured from rendered DOM"
     },
     "screenshot": "evidence/header-compact-desktop.png"
+  },
+  "revisionReview": {
+    "scope": "v2 record-table gameplay replaces equation preview; prior assessment and audio unchanged",
+    "uiWins": [
+      1,
+      2,
+      12
+    ],
+    "mobileWin": 2,
+    "wrongMoveFeedback": true,
+    "undoAndReload": true,
+    "tutorialActualWinKeyboard": true,
+    "preMoveFormulaAbsent": true,
+    "postMoveRatioProductExplanation": true,
+    "consoleErrors": []
   }
 }

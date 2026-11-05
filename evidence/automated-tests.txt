@@ -2,199 +2,219 @@ TAP version 13
 # Subtest: Independent u1
 ok 1 - Independent u1
   ---
-  duration_ms: 4.3906
+  duration_ms: 3.0477
   ...
 # Subtest: Independent u2
 ok 2 - Independent u2
   ---
-  duration_ms: 0.3362
+  duration_ms: 0.2043
   ...
 # Subtest: Independent t1
 ok 3 - Independent t1
   ---
-  duration_ms: 0.6542
+  duration_ms: 0.4882
   ...
 # Subtest: Independent t2
 ok 4 - Independent t2
   ---
-  duration_ms: 0.3797
+  duration_ms: 0.2556
   ...
 # Subtest: Independent e1
 ok 5 - Independent e1
   ---
-  duration_ms: 0.3157
+  duration_ms: 0.3387
   ...
 # Subtest: Independent e2
 ok 6 - Independent e2
   ---
-  duration_ms: 0.165
+  duration_ms: 0.1928
   ...
 # Subtest: Independent g1
 ok 7 - Independent g1
   ---
-  duration_ms: 0.2659
+  duration_ms: 0.2788
   ...
 # Subtest: Independent g2
 ok 8 - Independent g2
   ---
-  duration_ms: 0.2042
+  duration_ms: 0.1388
   ...
 # Subtest: Wrong first, retry, and help cannot become independent
 ok 9 - Wrong first, retry, and help cannot become independent
   ---
-  duration_ms: 3.593
+  duration_ms: 3.9057
   ...
 # Subtest: Unique first response only; rational input equivalence
 ok 10 - Unique first response only; rational input equivalence
   ---
-  duration_ms: 0.857
+  duration_ms: 0.7621
   ...
 # Subtest: Round 1 independent graph search and legal winning path
 ok 11 - Round 1 independent graph search and legal winning path
   ---
-  duration_ms: 3.526
+  duration_ms: 3.7506
   ...
 # Subtest: Round 2 independent graph search and legal winning path
 ok 12 - Round 2 independent graph search and legal winning path
   ---
-  duration_ms: 0.8914
+  duration_ms: 0.817
   ...
 # Subtest: Round 3 independent graph search and legal winning path
 ok 13 - Round 3 independent graph search and legal winning path
   ---
-  duration_ms: 0.5125
+  duration_ms: 0.4967
   ...
 # Subtest: Round 4 independent graph search and legal winning path
 ok 14 - Round 4 independent graph search and legal winning path
   ---
-  duration_ms: 1.3995
+  duration_ms: 1.9935
   ...
 # Subtest: Round 5 independent graph search and legal winning path
 ok 15 - Round 5 independent graph search and legal winning path
   ---
-  duration_ms: 0.7619
+  duration_ms: 0.8078
   ...
 # Subtest: Round 6 independent graph search and legal winning path
 ok 16 - Round 6 independent graph search and legal winning path
   ---
-  duration_ms: 1.2905
+  duration_ms: 1.425
   ...
 # Subtest: Round 7 independent graph search and legal winning path
 ok 17 - Round 7 independent graph search and legal winning path
   ---
-  duration_ms: 2.9726
+  duration_ms: 4.1374
   ...
 # Subtest: Round 8 independent graph search and legal winning path
 ok 18 - Round 8 independent graph search and legal winning path
   ---
-  duration_ms: 7.1229
+  duration_ms: 6.8297
   ...
 # Subtest: Round 9 independent graph search and legal winning path
 ok 19 - Round 9 independent graph search and legal winning path
   ---
-  duration_ms: 1.2645
+  duration_ms: 1.2191
   ...
 # Subtest: Round 10 independent graph search and legal winning path
 ok 20 - Round 10 independent graph search and legal winning path
   ---
-  duration_ms: 1.2434
+  duration_ms: 1.8936
   ...
 # Subtest: Round 11 independent graph search and legal winning path
 ok 21 - Round 11 independent graph search and legal winning path
   ---
-  duration_ms: 1.8288
+  duration_ms: 2.2635
   ...
 # Subtest: Round 12 independent graph search and legal winning path
 ok 22 - Round 12 independent graph search and legal winning path
   ---
-  duration_ms: 2.7997
+  duration_ms: 1.9649
   ...
 # Subtest: Near-star greedy works early but loses with reserved tickets
 ok 23 - Near-star greedy works early but loses with reserved tickets
   ---
-  duration_ms: 1.6576
+  duration_ms: 1.3821
   ...
 # Subtest: A legal but wrong route can spend the only needed ticket; undo recovers exact resources
 ok 24 - A legal but wrong route can spend the only needed ticket; undo recovers exact resources
   ---
-  duration_ms: 2.2672
+  duration_ms: 1.7252
   ...
 # Subtest: No teleport, no division by zero, no imaginary inverse crossing
 ok 25 - No teleport, no division by zero, no imaginary inverse crossing
   ---
-  duration_ms: 0.5503
+  duration_ms: 0.2952
   ...
 # Subtest: Tutorial first success without campaign state
 ok 26 - Tutorial first success without campaign state
   ---
-  duration_ms: 0.6538
+  duration_ms: 0.2704
   ...
 # Subtest: music starts only after explicit play; loops and resumes without resetting position
 ok 27 - music starts only after explicit play; loops and resumes without resetting position
   ---
-  duration_ms: 3.343
+  duration_ms: 2.325
   ...
 # Subtest: mode change preserves playing state and writes only preferences
 ok 28 - mode change preserves playing state and writes only preferences
   ---
-  duration_ms: 6.6603
+  duration_ms: 3.756
   ...
 # Subtest: saved mode and volume load without autoplay
 ok 29 - saved mode and volume load without autoplay
   ---
-  duration_ms: 0.7694
+  duration_ms: 0.4555
   ...
 # Subtest: invalid preferences and modes cannot select arbitrary sources
 ok 30 - invalid preferences and modes cannot select arbitrary sources
   ---
-  duration_ms: 0.8849
+  duration_ms: 0.391
   ...
 # Subtest: blocked playback exposes recovery without claiming playback
 ok 31 - blocked playback exposes recovery without claiming playback
   ---
-  duration_ms: 0.6367
+  duration_ms: 0.4006
   ...
 # Subtest: pause cancels a pending play state update
 ok 32 - pause cancels a pending play state update
   ---
-  duration_ms: 0.7429
+  duration_ms: 0.3437
   ...
 # Subtest: older play completion cannot silence the newer request
 ok 33 - older play completion cannot silence the newer request
   ---
-  duration_ms: 0.4855
+  duration_ms: 0.4861
+  ...
+# Subtest: Record tables keep ratio or product across early and late factors
+ok 34 - Record tables keep ratio or product across early and late factors
+  ---
+  duration_ms: 2.1232
+  ...
+# Subtest: Both increasing is not enough; both decreasing is not enough
+ok 35 - Both increasing is not enough; both decreasing is not enough
+  ---
+  duration_ms: 0.2376
+  ...
+# Subtest: Selection never reveals a computed equation or destination hint
+ok 36 - Selection never reveals a computed equation or destination hint
+  ---
+  duration_ms: 0.8715
+  ...
+# Subtest: Every late board contains increasing nonproportional and decreasing noninverse pairs
+ok 37 - Every late board contains increasing nonproportional and decreasing noninverse pairs
+  ---
+  duration_ms: 0.6048
   ...
 # Subtest: muted effects never start; enable, play and mute stop active oscillators
-ok 34 - muted effects never start; enable, play and mute stop active oscillators
+ok 38 - muted effects never start; enable, play and mute stop active oscillators
   ---
-  duration_ms: 2.8956
+  duration_ms: 4.188
   ...
 # Subtest: preference survives new controller and test checks a generated waveform
-ok 35 - preference survives new controller and test checks a generated waveform
+ok 39 - preference survives new controller and test checks a generated waveform
   ---
-  duration_ms: 83.7944
+  duration_ms: 79.2088
   ...
 # Subtest: blocked playback returns an error instead of falsely reporting enabled sound
-ok 36 - blocked playback returns an error instead of falsely reporting enabled sound
+ok 40 - blocked playback returns an error instead of falsely reporting enabled sound
   ---
-  duration_ms: 0.7871
+  duration_ms: 0.5269
   ...
 # Subtest: muting while resume is pending cannot re-enable playback
-ok 37 - muting while resume is pending cannot re-enable playback
+ok 41 - muting while resume is pending cannot re-enable playback
   ---
-  duration_ms: 0.5081
+  duration_ms: 0.2949
   ...
 # Subtest: unavailable storage does not prevent sound playback
-ok 38 - unavailable storage does not prevent sound playback
+ok 42 - unavailable storage does not prevent sound playback
   ---
-  duration_ms: 0.7734
+  duration_ms: 0.4457
   ...
-1..38
-# tests 38
+1..42
+# tests 42
 # suites 0
-# pass 38
+# pass 42
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 268.0771
+# duration_ms 270.3945
