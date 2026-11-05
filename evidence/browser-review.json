@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-03T01:20:58.599Z",
-  "sourceHash": "80e0f0810b1e28e74d058ac2b02c2f61533d274da746b177c234573ba72f61a6",
+  "sourceHash": "8005f9e274036b0ecb0b9786ba095d6649d712da7aff417b55558787eabcabb4",
   "browser": "Chrome via CUA; local 127.0.0.1:51245",
   "screenshots": [
     "evidence/mobile-game.png",
@@ -72,5 +72,26 @@
     "No student playtesting; fun and learning effectiveness remain hypotheses.",
     "Chrome active-tab screenshot calls intermittently time out. Saved successful game mobile and notes desktop captures; did not claim missing captures.",
     "Game contains only positive first-quadrant stations; negative values and x=0 restrictions are checked in separate tasks."
-  ]
+  ],
+  "audioRefresh": {
+    "id": "aurora-rail",
+    "checkedAt": "2026-11-05T04:11:23.792324+00:00",
+    "method": "Chrome actual UI clicks through cua_repl; music HTMLAudioElement readyState/currentTime; effects analyser test",
+    "focus": {
+      "playing": true,
+      "readyState": 4
+    },
+    "energy": {
+      "playing": true,
+      "readyState": 4
+    },
+    "effectsSignal": true,
+    "independentEffectsMute": true,
+    "musicStop": true,
+    "mobileWidth": 390,
+    "horizontalOverflow": false,
+    "musicMenuInBounds": true,
+    "consoleErrors": [],
+    "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  }
 }

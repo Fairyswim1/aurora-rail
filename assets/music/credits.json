@@ -1,0 +1,42 @@
+{
+  "title": "오로라 너머로",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "오로라 너머로",
+    "root": 62,
+    "bpm": 78,
+    "color": "felt",
+    "minor": false,
+    "motif": [
+      0,
+      2,
+      7,
+      9,
+      12,
+      9,
+      4,
+      7
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 78,
+      "seconds": 49.23074829931973,
+      "peak": 0.2342836390877495,
+      "rms": 0.05464577388483511,
+      "seamDelta": 0.004492309145419204,
+      "sha256": "36388a7426568fdfd3b09f8c44f9b7e61e2061c35e63226e2ac052289c6430a8"
+    },
+    {
+      "mode": "energy",
+      "bpm": 102,
+      "seconds": 37.647074829931974,
+      "peak": 0.28744552981539606,
+      "rms": 0.06858814527749865,
+      "seamDelta": 0.0033227060488935367,
+      "sha256": "38b1b1bb15308fb7efef4eb7dd86c9e70f3b4f28b5d1b52d1e5501dc89bd7e8f"
+    }
+  ]
+}
