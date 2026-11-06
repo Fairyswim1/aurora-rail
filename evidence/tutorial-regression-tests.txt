@@ -1,0 +1,255 @@
+TAP version 13
+# Subtest: Independent u1
+ok 1 - Independent u1
+  ---
+  duration_ms: 2.467
+  ...
+# Subtest: Independent u2
+ok 2 - Independent u2
+  ---
+  duration_ms: 0.1674
+  ...
+# Subtest: Independent t1
+ok 3 - Independent t1
+  ---
+  duration_ms: 0.3732
+  ...
+# Subtest: Independent t2
+ok 4 - Independent t2
+  ---
+  duration_ms: 0.2134
+  ...
+# Subtest: Independent e1
+ok 5 - Independent e1
+  ---
+  duration_ms: 0.3714
+  ...
+# Subtest: Independent e2
+ok 6 - Independent e2
+  ---
+  duration_ms: 0.3815
+  ...
+# Subtest: Independent g1
+ok 7 - Independent g1
+  ---
+  duration_ms: 0.4644
+  ...
+# Subtest: Independent g2
+ok 8 - Independent g2
+  ---
+  duration_ms: 0.1679
+  ...
+# Subtest: Wrong first, retry, and help cannot become independent
+ok 9 - Wrong first, retry, and help cannot become independent
+  ---
+  duration_ms: 3.7748
+  ...
+# Subtest: Unique first response only; rational input equivalence
+ok 10 - Unique first response only; rational input equivalence
+  ---
+  duration_ms: 1.0672
+  ...
+# Subtest: Round 1 independent graph search and legal winning path
+ok 11 - Round 1 independent graph search and legal winning path
+  ---
+  duration_ms: 3.2732
+  ...
+# Subtest: Round 2 independent graph search and legal winning path
+ok 12 - Round 2 independent graph search and legal winning path
+  ---
+  duration_ms: 0.8035
+  ...
+# Subtest: Round 3 independent graph search and legal winning path
+ok 13 - Round 3 independent graph search and legal winning path
+  ---
+  duration_ms: 0.4752
+  ...
+# Subtest: Round 4 independent graph search and legal winning path
+ok 14 - Round 4 independent graph search and legal winning path
+  ---
+  duration_ms: 1.6121
+  ...
+# Subtest: Round 5 independent graph search and legal winning path
+ok 15 - Round 5 independent graph search and legal winning path
+  ---
+  duration_ms: 0.6992
+  ...
+# Subtest: Round 6 independent graph search and legal winning path
+ok 16 - Round 6 independent graph search and legal winning path
+  ---
+  duration_ms: 1.3949
+  ...
+# Subtest: Round 7 independent graph search and legal winning path
+ok 17 - Round 7 independent graph search and legal winning path
+  ---
+  duration_ms: 3.5825
+  ...
+# Subtest: Round 8 independent graph search and legal winning path
+ok 18 - Round 8 independent graph search and legal winning path
+  ---
+  duration_ms: 6.2876
+  ...
+# Subtest: Round 9 independent graph search and legal winning path
+ok 19 - Round 9 independent graph search and legal winning path
+  ---
+  duration_ms: 1.7944
+  ...
+# Subtest: Round 10 independent graph search and legal winning path
+ok 20 - Round 10 independent graph search and legal winning path
+  ---
+  duration_ms: 1.1211
+  ...
+# Subtest: Round 11 independent graph search and legal winning path
+ok 21 - Round 11 independent graph search and legal winning path
+  ---
+  duration_ms: 1.9569
+  ...
+# Subtest: Round 12 independent graph search and legal winning path
+ok 22 - Round 12 independent graph search and legal winning path
+  ---
+  duration_ms: 2.0841
+  ...
+# Subtest: Near-star greedy works early but loses with reserved tickets
+ok 23 - Near-star greedy works early but loses with reserved tickets
+  ---
+  duration_ms: 1.4228
+  ...
+# Subtest: A legal but wrong route can spend the only needed ticket; undo recovers exact resources
+ok 24 - A legal but wrong route can spend the only needed ticket; undo recovers exact resources
+  ---
+  duration_ms: 1.7297
+  ...
+# Subtest: No teleport, no division by zero, no imaginary inverse crossing
+ok 25 - No teleport, no division by zero, no imaginary inverse crossing
+  ---
+  duration_ms: 0.219
+  ...
+# Subtest: Tutorial first success without campaign state
+ok 26 - Tutorial first success without campaign state
+  ---
+  duration_ms: 0.242
+  ...
+# Subtest: music starts only after explicit play; loops and resumes without resetting position
+ok 27 - music starts only after explicit play; loops and resumes without resetting position
+  ---
+  duration_ms: 1.604
+  ...
+# Subtest: mode change preserves playing state and writes only preferences
+ok 28 - mode change preserves playing state and writes only preferences
+  ---
+  duration_ms: 2.2703
+  ...
+# Subtest: saved mode and volume load without autoplay
+ok 29 - saved mode and volume load without autoplay
+  ---
+  duration_ms: 0.2965
+  ...
+# Subtest: invalid preferences and modes cannot select arbitrary sources
+ok 30 - invalid preferences and modes cannot select arbitrary sources
+  ---
+  duration_ms: 0.2477
+  ...
+# Subtest: blocked playback exposes recovery without claiming playback
+ok 31 - blocked playback exposes recovery without claiming playback
+  ---
+  duration_ms: 0.2715
+  ...
+# Subtest: pause cancels a pending play state update
+ok 32 - pause cancels a pending play state update
+  ---
+  duration_ms: 0.3302
+  ...
+# Subtest: older play completion cannot silence the newer request
+ok 33 - older play completion cannot silence the newer request
+  ---
+  duration_ms: 0.3367
+  ...
+# Subtest: Record tables keep ratio or product across early and late factors
+ok 34 - Record tables keep ratio or product across early and late factors
+  ---
+  duration_ms: 1.9879
+  ...
+# Subtest: Both increasing is not enough; both decreasing is not enough
+ok 35 - Both increasing is not enough; both decreasing is not enough
+  ---
+  duration_ms: 0.261
+  ...
+# Subtest: Selection never reveals a computed equation or destination hint
+ok 36 - Selection never reveals a computed equation or destination hint
+  ---
+  duration_ms: 1.266
+  ...
+# Subtest: Every late board contains increasing nonproportional and decreasing noninverse pairs
+ok 37 - Every late board contains increasing nonproportional and decreasing noninverse pairs
+  ---
+  duration_ms: 1.1584
+  ...
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 38 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 3.4283
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 39 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 83.4749
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 40 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.7659
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 41 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.4303
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 42 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.6547
+  ...
+# Subtest: first visit always starts, including an old shared off URL
+ok 43 - first visit always starts, including an old shared off URL
+  ---
+  duration_ms: 2.4275
+  ...
+# Subtest: opening, abandoning, and refreshing do not mark the guide finished
+ok 44 - opening, abandoning, and refreshing do not mark the guide finished
+  ---
+  duration_ms: 1.2337
+  ...
+# Subtest: completion and explicit skip persist per game, with a clean shareable URL
+ok 45 - completion and explicit skip persist per game, with a clean shareable URL
+  ---
+  duration_ms: 3.1027
+  ...
+# Subtest: old valid completion is preserved; corrupt or started records do not skip
+ok 46 - old valid completion is preserved; corrupt or started records do not skip
+  ---
+  duration_ms: 0.529
+  ...
+# Subtest: replay and practice never overwrite campaign or assessment records
+ok 47 - replay and practice never overwrite campaign or assessment records
+  ---
+  duration_ms: 0.3048
+  ...
+# Subtest: blocked local storage uses session completion without a redirect loop
+ok 48 - blocked local storage uses session completion without a redirect loop
+  ---
+  duration_ms: 0.377
+  ...
+# Subtest: both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+ok 49 - both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+  ---
+  duration_ms: 0.3718
+  ...
+1..49
+# tests 49
+# suites 0
+# pass 49
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 269.3616

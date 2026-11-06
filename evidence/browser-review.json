@@ -1,14 +1,15 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-05T06:33:22.188946+00:00",
-  "sourceHash": "0637d1a6c312fdfed3eb6e970027f63d4cbfde6dfd11f4bb10475318487c733b",
+  "sourceHash": "15d989416382f16dc5daec5fcf2a66e2bd8e0b7edcae2253fa89c93d3018038e",
   "browser": "Chrome via CUA; local 127.0.0.1:51245",
   "screenshots": [
     "evidence/mobile-game.png",
     "evidence/desktop-notes.png",
     "evidence/header-compact-desktop.png",
     "evidence/aurora-final-desktop.png",
-    "evidence/aurora-final-mobile.png"
+    "evidence/aurora-final-mobile.png",
+    "evidence/first-visit-mobile.png"
   ],
   "campaign": {
     "rounds": 12,
@@ -129,5 +130,17 @@
     "preMoveFormulaAbsent": true,
     "postMoveRatioProductExplanation": true,
     "consoleErrors": []
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:44:39.864Z",
+    "id": "aurora-rail",
+    "firstVisitOff": true,
+    "startedStep": "별을 모아 도착해요",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "0637d1a6c312fdfed3eb6e970027f63d4cbfde6dfd11f4bb10475318487c733b",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }

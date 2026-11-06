@@ -1,0 +1,133 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-05T06:33:22.188946+00:00",
+  "sourceHash": "0637d1a6c312fdfed3eb6e970027f63d4cbfde6dfd11f4bb10475318487c733b",
+  "browser": "Chrome via CUA; local 127.0.0.1:51245",
+  "screenshots": [
+    "evidence/mobile-game.png",
+    "evidence/desktop-notes.png",
+    "evidence/header-compact-desktop.png",
+    "evidence/aurora-final-desktop.png",
+    "evidence/aurora-final-mobile.png"
+  ],
+  "campaign": {
+    "rounds": 12,
+    "allWon": true,
+    "method": "Clicked ticket and station buttons for each solution. First batch completed rounds 1–6 before tool timeout; observed six earned badges. Rounds 7–12 each returned visible next button; completion dialog confirmed all twelve.",
+    "ending": true,
+    "persistence": true,
+    "undo": true,
+    "failure": "Round 5 route A-E-D-E-A-E uses all tickets with stars missing. Hint reports no solution; undo restores inverse ticket.",
+    "resourceTradeoff": "26 tests include independent BFS and near-star greedy failure for rounds 5–12."
+  },
+  "tutorial": {
+    "firstVisit": true,
+    "keyboard": true,
+    "actualPracticeWin": true,
+    "replay": true,
+    "skip": true,
+    "isolated": true,
+    "evidence": "Practice reached C with one star and zero campaign badges; later replay/skip preserved 12/12."
+  },
+  "assessment": {
+    "codes": [
+      "9수02-07"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "mobile": true,
+    "export": true,
+    "profiles": true,
+    "feedback": true,
+    "details": "All eight tasks submitted through UI. u1 first wrong then hint/retry correct remains excluded; report 1/2,2/2,2/2,2/2. New anonymous note starts at zeros; switching back restores results. Feedback persisted after reload.",
+    "exportEvidence": "Actual downloaded HTML contains readable answers, retries, help use, explanations, feedback; copied to evidence/export-sample.html. Browser download event timed out but file was written and inspected.",
+    "mobileEvidence": {
+      "cssWidth": 390,
+      "clientWidth": 374,
+      "scrollWidth": 374,
+      "overflowingControls": [],
+      "fonts": "loaded",
+      "graph": "Negative inverse curve and entered points verified in desktop screenshot; mobile task interactions and DOM layout verified."
+    }
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "fonts": [
+      "Jua",
+      "Do Hyeon",
+      "Gowun Dodum"
+    ],
+    "notes": "Game mobile image visually inspected: title, generated buttons, station labels and plot within bounds; desktop notes visually inspected. CSS width 390 confirmed in DOM despite 90% Chrome zoom."
+  },
+  "audio": {
+    "signal": "verified",
+    "speakerAudition": false
+  },
+  "console": {
+    "gameErrors": [],
+    "assessmentErrors": []
+  },
+  "limitations": [
+    "No student playtesting; fun and learning effectiveness remain hypotheses.",
+    "Chrome active-tab screenshot calls intermittently time out. Saved successful game mobile and notes desktop captures; did not claim missing captures.",
+    "Game contains only positive first-quadrant stations; negative values and x=0 restrictions are checked in separate tasks."
+  ],
+  "audioRefresh": {
+    "id": "aurora-rail",
+    "checkedAt": "2026-11-05T04:11:23.792324+00:00",
+    "method": "Chrome actual UI clicks through cua_repl; music HTMLAudioElement readyState/currentTime; effects analyser test",
+    "focus": {
+      "playing": true,
+      "readyState": 4
+    },
+    "energy": {
+      "playing": true,
+      "readyState": 4
+    },
+    "effectsSignal": true,
+    "independentEffectsMute": true,
+    "musicStop": true,
+    "mobileWidth": 390,
+    "horizontalOverflow": false,
+    "musicMenuInBounds": true,
+    "consoleErrors": [],
+    "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "previousReviewSourceHash": "5713d88aad7bf159c6a92d12ca3d1bcc9bd610ba3b61a9b16f36b32622a41afb",
+  "headerRegression": {
+    "checkedAt": "2026-11-05T05:49:35.581Z",
+    "scope": "style.css header padding and subtitle font only; existing gameplay validation retained",
+    "desktop": {
+      "width": 2072,
+      "height": 125.1,
+      "subtitlePx": 16,
+      "overflow": false
+    },
+    "mobile": {
+      "width": 390,
+      "height": 196.5,
+      "overflow": false,
+      "screenshot": "CDP capture timed out; layout measured from rendered DOM"
+    },
+    "screenshot": "evidence/header-compact-desktop.png"
+  },
+  "revisionReview": {
+    "scope": "v2 record-table gameplay replaces equation preview; prior assessment and audio unchanged",
+    "uiWins": [
+      1,
+      2,
+      12
+    ],
+    "mobileWin": 2,
+    "wrongMoveFeedback": true,
+    "undoAndReload": true,
+    "tutorialActualWinKeyboard": true,
+    "preMoveFormulaAbsent": true,
+    "postMoveRatioProductExplanation": true,
+    "consoleErrors": []
+  }
+}
